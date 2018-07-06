@@ -1,5 +1,5 @@
 const fs = require('fs');
-let path = '/filesys/files/watch.txt';
+let path = './files/watch.txt';
 
 fs.watch(path, (eventType, filename) => {
 	console.log(`事件类型是: ${eventType}`);

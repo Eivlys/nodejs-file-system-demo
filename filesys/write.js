@@ -1,5 +1,5 @@
 const fs = require('fs');
-let path = '/filesys/files/writeFile.txt';
+let path = './files/writeFile.txt';
 let options = {
     flags: 'a',
 };

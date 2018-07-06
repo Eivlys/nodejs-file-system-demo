@@ -1,5 +1,5 @@
 const fs = require('fs');
-let path = '/filesys/files/readFile.txt';
+let path = './files/readFile.txt';
 let options = {
     encoding: 'utf8',
 };
